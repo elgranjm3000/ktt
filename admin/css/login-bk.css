@@ -1,0 +1,106 @@
+html {
+	height: 100%;
+	overflow: hidden;
+}
+body{
+background-color:#FFFFFF;
+}
+#login_center {
+ position:absolute;
+ top:50%;
+ width:760px;
+ height:380px;
+ left:50%;
+ margin-top:-190px;
+ margin-left:-380px;
+ background:url(../images/bg-login.png) no-repeat;
+ 
+ /** x mi */
+ background:url(../images/ui-bg_flat_10_000000_40x100.png) repeat;
+ /*border: 1px solid green;*/
+}
+
+.login_label{
+ font-family: Arial, sans-serif, Tahoma, "Trebuchet MS", Verdana;
+ font-size:11px;
+ /*width:180px;*/
+ height:20px;
+ /* esto
+ color:#666666;*/
+ 
+ /** x mi */
+ color: white;
+}
+.login_input{
+ position:relative;
+ font-family: Arial, sans-serif, Tahoma, "Trebuchet MS", Verdana;
+ font-size:11px;
+ width:180px;
+ height:20px;
+ color:#666666;
+ border:1px solid #1a171b;
+}
+.login_submit{
+ font-family: Arial, sans-serif, Tahoma, "Trebuchet MS", Verdana;
+ font-size:11px;
+ width:120px;
+ height:20px;
+ border:0px;
+ color:#FFFFFF;
+ cursor:pointer;
+ background-color:#666666;  border:1px solid #666666;
+
+}
+/*#contenido{
+float:left;
+width:242px;
+height:366px;
+margin-top:130px;
+margin-left:77px;
+display:inline;
+}*/
+#cont_img{
+float:left;
+width:66px;
+height:66px;
+margin-top:56px;
+margin-left:18px;
+display:inline;
+}
+
+#cont{
+float:left;
+width:200px;
+height:60px;
+margin-left:440px;
+margin-top:120px;
+display:inline;
+}
+
+form { margin:0px; padding:0px; }
+#dlgMensajea{
+            float:left;
+            width:286px;
+            /*height:94px;*/
+            border:7px solid #fff;
+            background:#f2f2f2;
+            padding-top:42px;
+            text-align: center;
+            font-family: Arial;
+            padding-bottom:25px;
+            font-size: 11px;
+            color:#1A8399;
+        }
+        #dlgMensajea a{
+            float:left;
+            width:70px;
+            height:20px;
+            line-height:20px;
+            font-family: Arial;
+            font-size: 11px;
+            color:#fff;
+            background:#1A8399;
+            margin-left:108px;
+            margin-top:20px;
+            text-decoration: none;
+        }
